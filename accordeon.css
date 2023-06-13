@@ -1,0 +1,137 @@
+.info-wrapper{
+  padding: 50px 100px;
+}
+.info-wrapper h2{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 50px;
+}
+.accordion {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.info-description{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.info-card{
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.07);
+  border-radius: 2px;
+  padding: 10px 10px 0 10px;
+  margin-bottom: 10px;
+}
+.accordion {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #000000;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  background: #FFFFFF;
+  margin-left: 12px;
+}
+.accordion:after {
+  content: url("./img/drop-down.png"); 
+  float: right;
+  margin-right: 10px;
+}
+.active:after {
+  content: url("./img/drop-up.png"); 
+}
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 920px){
+  .info-wrapper h2{
+    font-size: 28px;
+  }
+  .accordion{
+    font-size: 16px;
+  }
+  .info-description{
+    font-size: 14px;
+  }
+  .info-wrapper{
+    padding: 50px 70px;
+  }
+}
+@media screen and (max-width: 720px){
+  .info-wrapper h2{
+    font-size: 24px;
+  }
+  .info-description{
+    font-size: 12px;
+  }
+  .info-wrapper{
+    padding: 60px;
+  }
+}
+@media screen and (max-width: 520px){
+  .info-wrapper h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .accordion{
+    font-size: 14px;
+  }
+  .info-wrapper{
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 480px){
+  .accordion{
+    font-size: 13px;
+  }
+  .info-wrapper{
+    padding: 30px;
+  }
+  .info-card{
+    padding: 10px 0 0 0;
+  }
+}
+@media screen and (max-width: 420px){
+
+  .accordion {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+  }
+  .info-description{
+    font-size: 10px;
+  }
+  .info-wrapper{
+    padding: 30px 10px;
+  }
+}
+@media screen and (max-width: 380px){
+  .accordion{
+    font-size: 8px;
+  }
+  .info-description{
+    font-size: 10px;
+  }
+}
