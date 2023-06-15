@@ -62,6 +62,7 @@ table {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	height: 100vh;
 }
 .main-logo{
 	font-family: 'Raleway';
