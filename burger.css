@@ -2,10 +2,11 @@
 	display: none;
 	background: #000000;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	padding: 15px;
   	z-index: 1; 
 	padding: 2vw 2vw 2vw 4vw;
+	transition: 1s;
 }
 .burger-close{
 	float: right;
@@ -19,7 +20,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 .bg-menu-item{
 	font-family: 'Raleway';
